@@ -1,0 +1,57 @@
+body {
+  padding-top:40px;
+  height:100%;
+}
+.sk-block {
+
+  min-height:500px;
+	padding: 30px 15px;
+  margin-bottom: 30px;
+ background-image: url('https://source.unsplash.com/category/nature/1600x900');
+ color: inherit;
+ background-position: 0% 25%;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+}
+.playground-block {
+
+  padding: 30px 15px;
+  //margin-bottom: 30px;
+}
+
+.banner-text{
+	background-color: rgba(255, 255, 255, 0.3);
+	text-align: center;
+	//font-size: 20em;
+}
+
+.thumbnail img {
+    height:250px;
+    width:100%;
+}
+
+#content {
+text-align: center;
+padding-top: 25%;
+}
+.box{
+	vertical-align:top;
+	display:inline-block;
+	position:relative;
+	border: solid #99ccee 3px;
+	width: 200 px;
+	height:200 px;
+
+}
+.box-label{
+	background-color: #99ccee;
+	text-align: center;
+	//margin-top:0;
+}
+
+.tr_table_fix_header{
+  position: relative;
+  top: expression(this.offsetParent.scrollTop);
+  z-inded: 20;
+}
