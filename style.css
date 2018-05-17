@@ -50,12 +50,12 @@ padding-top: 25%;
 	//margin-top:0;
 }
 
-.leftmenu ul {
+.lefttmenu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.lefmenu li {
+.leftmenu li {
     padding: 8px;
     margin-bottom: 7px;
     background-color :#33b5e5;
